@@ -1,8 +1,8 @@
 package main
 
-import "warm-up/internal/app"
+import "warm-up/internal/server"
 
 func main() {
-	srv := app.New()
+	srv := server.New()
 	srv.Run()
 }

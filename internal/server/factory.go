@@ -1,9 +1,9 @@
-package app
+package server
 
 import (
 	"log"
 	"warm-up/internal/adapters/in/http"
-	"warm-up/internal/adapters/out/inMemoryPersistence"
+	"warm-up/internal/adapters/out/inMemory"
 	"warm-up/internal/application/orders"
 )
 
